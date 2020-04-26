@@ -1,0 +1,30 @@
+
+.thumbnail img{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+ .pic_in_row{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+}
+
+.pic_in_row img{
+    flex: 1;
+} 
+
+.thumbnail{
+    padding: 10px;
+}
+
+.thumbnail .caption-full{
+    padding: 9px;
+}
+
+.campcomDelete{
+    display: inline;
+}
+
